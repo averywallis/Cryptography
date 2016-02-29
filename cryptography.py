@@ -12,4 +12,4 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 message=str(input("Message: "))
 key=str(input("Key: "))
-input=input('Enter e to encrypt, d to decrypt, or q to quit: ")
+input=input('Enter e to encrypt, d to decrypt, or q to quit: ')

@@ -14,3 +14,7 @@ message=str(input("Message: "))
 key=str(input("Key: "))
 input=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 print(associations.find('c'))
+let=[]
+l=len(message)
+for x in range (0,l):
+    let.append(associations.find(

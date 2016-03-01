@@ -13,3 +13,4 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 message=str(input("Message: "))
 key=str(input("Key: "))
 input=input('Enter e to encrypt, d to decrypt, or q to quit: ')
+print(associations.find(2))

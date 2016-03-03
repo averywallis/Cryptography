@@ -33,8 +33,8 @@ if ip=='e':
     for e in range(0,b):
         a=0
         thing.append(associations.find(key[a]))
-        print(thing)
         a=a+1
+    print(thing)    
 
 elif ip=='d':
         print(let)

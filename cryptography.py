@@ -12,6 +12,7 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 let=[]
 thing=[]
+c=0
 
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 if  ip not in('e','d','q'):
@@ -28,13 +29,13 @@ if ip=='e':
     for y in range(0,k):
         thing.append(associations.find(key[y]))
     b=l-k
-    while 
-    if b>0:
-        a=0
-        thing.append(associations.find(key[a]))
-        print(thing)
-    elif b=0:
-        break
+    while c=0:
+        if b>0:
+            a=0
+            thing.append(associations.find(key[a]))
+            print(thing)
+        elif b=0:
+            c=1
 elif ip=='d':
         print(let)
 elif ip=='q':

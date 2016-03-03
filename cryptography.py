@@ -15,7 +15,7 @@ thing=[]
 
 
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
-if  ip !in('e','d','q'):
+if  ip not in('e','d','q'):
     print("Did not understand command, try again.")
     ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 

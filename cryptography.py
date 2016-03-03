@@ -29,7 +29,7 @@ if ip=='e':
         thing.append(associations.find(key[y]))
     b=l-k
     thing.append(key[-b])
-    
+    print(thing)
 elif ip=='d':
         print(let)
 elif ip=='q':

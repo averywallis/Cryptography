@@ -23,7 +23,7 @@ if ip=='e':
     key=str(input("Key: "))
     l=len(message)
     k=len(key)
-    for x in range (0,l):
+    for x in range (0,l-1):
         let.append(associations.find(message[x]))
     for y in range(0,k):
         thing.append(associations.find(key[y]))

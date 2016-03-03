@@ -27,7 +27,7 @@ if ip=='e':
     for x in range (0,l):
         let.append(associations.find(message[x]))
     while k<l:
-        l=len(message)
+        a=len(let)
         k=len(key)
         if k<l:
             for y in range(0,k):

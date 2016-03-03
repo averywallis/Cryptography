@@ -18,6 +18,7 @@ if input=='e':
     key=str(input("Key: "))
     l=len(message)
 elif input=='d':
+    
 elif input=='q':
 
 for x in range (0,l):

@@ -12,7 +12,9 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 let=[]
 
-label .beginning
+ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
+elif not ip=='q' or ip=='e' or ip=='d':
+    print("Did not understand command, try again.")
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 if ip=='e':
     message=input("Message: ")
@@ -26,4 +28,3 @@ elif ip=='q':
     print(let)
 elif not ip=='q' or ip=='e' or ip=='d':
     print("Did not understand command, try again.")
-    goto .beginning

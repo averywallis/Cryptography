@@ -13,7 +13,7 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 let=[]
 
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
-elif not ip=='q' or ip=='e' or ip=='d':
+if not ip=='q' or ip=='e' or ip=='d':
     print("Did not understand command, try again.")
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 if ip=='e':

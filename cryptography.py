@@ -18,3 +18,4 @@ let=[]
 l=len(message)
 for x in range (0,l):
     let.append(associations.find(message[0]))
+print(let)

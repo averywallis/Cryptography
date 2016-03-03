@@ -29,7 +29,7 @@ if ip=='e':
     for y in range(0,k):
         thing.append(associations.find(key[y]))
     b=l-k
-    while c=0:
+    for e in range(0,b):
         if b>0:
             a=0
             thing.append(associations.find(key[a]))

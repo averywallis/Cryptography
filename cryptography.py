@@ -14,7 +14,7 @@ let=[]
 input=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 
 if input=='e':
-    message=str(input("Message: "))
+    message=input("Message: ")
     key=str(input("Key: "))
     l=len(message)
     for x in range (0,l):

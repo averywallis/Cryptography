@@ -17,4 +17,4 @@ print(associations.find('c'))
 let=[]
 l=len(message)
 for x in range (0,l):
-    let.append(associations[0])
+    let.append(associations.find(message[0]))

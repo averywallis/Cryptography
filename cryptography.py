@@ -22,8 +22,11 @@ if ip=='e':
     message=input("Message: ")
     key=str(input("Key: "))
     l=len(message)
+    k=len(key)
     for x in range (0,l):
         let.append(associations.find(message[x]))
+    if k<l:
+        
         
 elif ip=='d':
         print(let)

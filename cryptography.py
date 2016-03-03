@@ -11,6 +11,7 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 """
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 let=[]
+import sys
 
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 if not ip=='q' or ip=='e' or ip=='d':
@@ -27,5 +28,5 @@ if ip=='e':
 elif ip=='d':
         print(let)
 elif ip=='q':
-    break
+    sys.exit("Goodbye!")
 

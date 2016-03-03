@@ -12,7 +12,7 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 let=[]
 
-label:beginning
+label: beginning
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 if ip=='e':
     message=input("Message: ")

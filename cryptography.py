@@ -28,11 +28,13 @@ if ip=='e':
     for y in range(0,k):
         thing.append(associations.find(key[y]))
     b=l-k
+    while 
     if b>0:
         a=0
         thing.append(associations.find(key[a]))
         print(thing)
-    print(let)
+    elif b=0:
+        break
 elif ip=='d':
         print(let)
 elif ip=='q':

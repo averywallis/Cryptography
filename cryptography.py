@@ -13,7 +13,6 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 let=[]
 thing=[]
 
-
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 if  ip not in('e','d','q'):
     print("Did not understand command, try again.")
@@ -26,14 +25,14 @@ if ip=='e':
     k=len(key)
     for x in range (0,l):
         let.append(associations.find(message[x]))
-        a=len(let)
         k=len(key)
-        if k<a:
-            for y in range(0,k):
-                thing.append(associations.find(key[y]))
-        j=0
-        thing.append(associations.find(key[j]))    
-        j=j+1
+    for y in range(0,k):
+        thing.append(associations.find(key[y]))
+
+            j=0
+            thing.append(associations.find(key[j]))    
+            j=j+1
+        
 elif ip=='d':
         print(let)
 elif ip=='q':

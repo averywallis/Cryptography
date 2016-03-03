@@ -17,11 +17,12 @@ if input=='e':
     message=str(input("Message: "))
     key=str(input("Key: "))
     l=len(message)
+    for x in range (0,l):
+        let.append(associations.find(message[x]))
 elif input=='d':
     print(let)
 elif input=='q':
     print(let)
-for x in range (0,l):
-    let.append(associations.find(message[x]))
+
 
 print(let)

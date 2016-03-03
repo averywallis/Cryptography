@@ -28,5 +28,6 @@ if ip=='e':
 elif ip=='d':
         print(let)
 elif ip=='q':
-    sys.exit("Goodbye!")
+    print("Goodbye!")
+
 

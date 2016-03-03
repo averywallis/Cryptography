@@ -16,7 +16,7 @@ import sys
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 if not ip=='q' or ip=='e' or ip=='d':
     print("Did not understand command, try again.")
-ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
+    ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 
 if ip=='e':
     message=input("Message: ")

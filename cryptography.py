@@ -23,5 +23,5 @@ for y in range(0,100):
         print(let)
     elif ip=='q':
         print(let)
-    elif not ip==q or ip==e or ip==d:
+    elif not ip=='q' or ip=='e' or ip=='d':
         print("Did not understand command, try again.")

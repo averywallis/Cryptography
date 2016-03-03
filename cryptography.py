@@ -34,6 +34,7 @@ if ip=='e':
             a=0
             thing.append(associations.find(key[a]))
             print(thing)
+            a=a+1
         elif b=0:
             c=1
 elif ip=='d':

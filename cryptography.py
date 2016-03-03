@@ -27,7 +27,7 @@ if ip=='e':
     for x in range (0,l):
         let.append(associations.find(message[x]))
     for y in range(0,k):
-        thing.append(associations.find(key[y])
+        thing.append(associations.find(key[y]))
     print(let)
     b=l-k
     for e in range(0,b):

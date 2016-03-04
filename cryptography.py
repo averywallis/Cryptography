@@ -33,7 +33,7 @@ def encrypt():
     #print(thing)
     for x in range(0,l):
         if let[x]+thing[x]>85:
-            scram.append(let[x]+thing[x]-85)
+            scram.append(let[x]+thing[x]%85)
         else:
             scram.append(let[x]+thing[x])
     #print(scram,end=""),print()

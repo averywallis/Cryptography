@@ -61,7 +61,7 @@ def decrypt():
             scram.append((let[x]-thing[x])%85)
         else:
             scram.append(let[x]-thing[x])
-    #print(scram,end=""),print()
+    print(scram,end=""),print()
     for x in range(0,l):
         print(associations[scram[x]],end="")
     print()

@@ -32,12 +32,10 @@ if ip=='e':
     print(let)
     b=l-k
     for e in range(0,b):
-        a=0
         thing.append(associations.find(key[e]))
-        a=a+1
     print(thing)
     for x in range(0,l-1):
-        scram.append(associations.find(message[x])+associations.find(key[x]))
+        scram.append(associations.find(message[x])+associations.find(thing[x]))
     print(scram)
     
 

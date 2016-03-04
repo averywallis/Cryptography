@@ -36,7 +36,7 @@ if ip=='e':
         thing.append(associations.find(key[e]))
         a=a+1
     print(thing)
-    for x in range(0,l):
+    for x in range(0,l-1):
         scram.append(message[x]+key[x])
     print(scram)
     

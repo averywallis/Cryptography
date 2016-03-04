@@ -39,7 +39,6 @@ def encrypt():
     #print(scram,end="")
     for x in range(0,l):
         print(associations[scram[x]],end="")
-    
    
 def decrypt():
     print('thing')

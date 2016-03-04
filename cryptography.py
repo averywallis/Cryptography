@@ -33,10 +33,10 @@ def encrypt():
     #print(thing)
     for x in range(0,l):
         if let[x]+thing[x]>85:
-            scram.append(let[x]+thing[x]-85)
+            scram.append(let[x]+thing[x])
         else:
             scram.append(let[x]+thing[x])
-    print(scram,end=""),print()
+    #print(scram,end=""),print()
     for x in range(0,l):
         print(associations[scram[x]],end="")
    

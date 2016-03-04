@@ -46,6 +46,9 @@ def decrypt():
     key=str(input("Key: "))
     l=len(message)
     k=len(key)
+    let=[]
+    thing=[]
+    scram=[]
     for x in range (0,l):
         let.append(associations.find(message[x]))
     for y in range(0,k):

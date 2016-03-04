@@ -25,7 +25,7 @@ def encrypt():
         thing.append(associations.find(key[y]))
     b=l-k
     for e in range(0,b):
-        thing.append(associations.find(key[e]))
+        thing.append(associations.find(key[e%k]))
     for x in range(0,l):
         if (let[x]+thing[x])>85:
             scram.append((let[x]+thing[x])%85)

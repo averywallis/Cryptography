@@ -1,7 +1,7 @@
 """
 cryptography.py
 Author: Avery Wallis
-Credit: Daniel, Payton
+Credit: Daniel, Payton, Ethan
 
 Assignment:
 
@@ -13,6 +13,7 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 let=[]
 thing=[]
 scram=[]
+scramlet=[]
 
 
 def encrypt():
@@ -32,6 +33,8 @@ def encrypt():
     for x in range(0,l):
         scram.append(let[x]+thing[x])
     print(scram,end="")
+    for x in range(0,l):
+        associations[scram[x]]
     
     
 def decrypt():

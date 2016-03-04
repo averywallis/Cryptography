@@ -31,8 +31,8 @@ if ip=='e':
     print(let)
     b=l-k
     for e in range(0,b):
-        a=0
-        thing.append(associations.find(key[a]))
+        a=o
+        thing.append(associations.find(key[e]))
         a=a+1
     print(thing)    
 

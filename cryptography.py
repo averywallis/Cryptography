@@ -13,14 +13,10 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 let=[]
 thing=[]
 scram=[]
-c=0
 
 ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
-if  ip not in('e','d','q'):
-    print("Did not understand command, try again.")
-    ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 
-if ip=='e':
+def encrypt():
     message=input("Message: ")
     key=str(input("Key: "))
     l=len(message)
@@ -37,12 +33,20 @@ if ip=='e':
     for x in range(0,l):
         scram.append(let[x]+thing[x])
     print(scram)
-    
+
+def decrypt():
+   
+def run():
+    ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
+    if ip=='e':
     
 
-elif ip=='d':
+    elif ip=='d':
         print(let)
-elif ip=='q':
-    print("Goodbye!")
-
-
+    elif ip=='q':
+        print("Goodbye!")
+    else  ip not in('e','d','q'):
+        print("Did not understand command, try again.")
+        run()
+    
+run()

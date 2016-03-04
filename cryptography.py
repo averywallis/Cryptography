@@ -37,7 +37,7 @@ if ip=='e':
         a=a+1
     print(thing)
     for x in range(0,l-1):
-        scram.append(message[x]+key[x])
+        scram.append(associations.find(message[x])+associations.find(key[x]))
     print(scram)
     
 

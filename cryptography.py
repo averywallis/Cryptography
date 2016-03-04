@@ -35,7 +35,8 @@ def encrypt():
     print(scram)
 
 def decrypt():
-   
+    print('thing')
+    
 def run():
     ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
     if ip=='e':

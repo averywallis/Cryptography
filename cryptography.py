@@ -14,7 +14,6 @@ let=[]
 thing=[]
 scram=[]
 
-ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
 
 def encrypt():
     message=input("Message: ")

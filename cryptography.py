@@ -15,7 +15,6 @@ thing=[]
 scram=[]
 scramlet=[]
 
-
 def encrypt():
     message=input("Message: ")
     key=str(input("Key: "))
@@ -33,10 +32,10 @@ def encrypt():
     for x in range(0,l):
         scram.append(let[x]+thing[x])
     #print(scram,end="")
-    for x in range(0,l-1):
+    for x in range(0,l):
         print(associations[scram[x]],end="")
     
-    
+   
 def decrypt():
     print('thing')
     

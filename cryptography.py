@@ -33,6 +33,7 @@ def encrypt():
     for x in range(0,l):
         scram.append(let[x]+thing[x])
     print(scram,end="")
+    print()
     for x in range(0,l):
         print(associations[scram[x]],end="")
     

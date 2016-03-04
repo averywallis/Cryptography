@@ -40,12 +40,12 @@ def decrypt():
 def run():
     ip=input('Enter e to encrypt, d to decrypt, or q to quit: ')
     if ip=='e':
-    
-
+        encrypt()
     elif ip=='d':
-        print(let)
+        decrypt()
     elif ip=='q':
         print("Goodbye!")
+        return
     else  ip not in('e','d','q'):
         print("Did not understand command, try again.")
         run()

@@ -46,7 +46,7 @@ def run():
     elif ip=='q':
         print("Goodbye!")
         return
-    else ip not in('e','d','q'):
+    else:
         print("Did not understand command, try again.")
         run()
     

@@ -28,7 +28,7 @@ def encrypt():
         thing.append(associations.find(key[y]))
     #print(let)
     b=l-k
-    for e in range(0,b):
+    for e in range(0,b-1):
         thing.append(associations.find(key[e]))
     #print(thing)
     for x in range(0,l):

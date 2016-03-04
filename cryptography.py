@@ -14,6 +14,8 @@ let=[]
 thing=[]
 scram=[]
 scramlet=[]
+d=len(associations)
+print(d)
 
 def encrypt():
     message=input("Message: ")

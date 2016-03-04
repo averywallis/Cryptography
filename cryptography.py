@@ -34,9 +34,10 @@ if ip=='e':
     for e in range(0,b):
         thing.append(associations.find(key[e]))
     print(thing)
-    for x in range(0,l-1):
+    for x in range(0,l):
         scram.append(let[x]+thing[x])
     print(scram)
+    
     
 
 elif ip=='d':

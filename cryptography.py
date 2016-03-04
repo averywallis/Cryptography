@@ -25,14 +25,14 @@ def encrypt():
         let.append(associations.find(message[x]))
     for y in range(0,k):
         thing.append(associations.find(key[y]))
-    print(let)
+    #print(let)
     b=l-k
     for e in range(0,b):
         thing.append(associations.find(key[e]))
-    print(thing)
+    #print(thing)
     for x in range(0,l):
         scram.append(let[x]+thing[x])
-    print(scram,end="")
+    #print(scram,end="")
     print()
     for x in range(0,l):
         print(associations[scram[x]],end="")

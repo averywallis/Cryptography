@@ -26,7 +26,7 @@ def encrypt():
     #print(let)
     b=l-k
     for e in range(0,b):
-        thing.append(associations.find(key[e in range(0,b,1)]))
+        thing.append(associations.find(key[e in range(0,b)]))
     #print(thing)
     for x in range(0,l):
         if (let[x]+thing[x])>85:

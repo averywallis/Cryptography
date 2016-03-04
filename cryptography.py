@@ -32,7 +32,7 @@ def encrypt():
     for x in range(0,l):
         scram.append(let[x]+thing[x])
     print(scram)
-
+    print(scram,end="")
 def decrypt():
     print('thing')
     

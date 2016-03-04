@@ -23,17 +23,14 @@ def encrypt():
         let.append(associations.find(message[x]))
     for y in range(0,k):
         thing.append(associations.find(key[y]))
-    #print(let)
     b=l-k
     for e in range(0,b):
         thing.append(associations.find(key[e]))
-    #print(thing)
     for x in range(0,l):
         if (let[x]+thing[x])>85:
             scram.append((let[x]+thing[x])%85)
         else:
             scram.append(let[x]+thing[x])
-    #print(scram,end=""),print()
     for x in range(0,l):
         print(associations[scram[x]],end="")
     print()
@@ -51,17 +48,14 @@ def decrypt():
         let.append(associations.find(message[x]))
     for y in range(0,k):
         thing.append(associations.find(key[y]))
-    #print(let)
     b=l-k
     for e in range(0,b):
         thing.append(associations.find(key[e]))
-    #print(thing)
     for x in range(0,l):
         if (let[x]-thing[x])>85:
             scram.append((let[x]-thing[x])%85)
         else:
             scram.append(let[x]-thing[x])
-    #print(scram,end=""),print()
     for x in range(0,l):
         print(associations[scram[x]],end="")
     print()
